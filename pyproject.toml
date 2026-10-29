@@ -1,0 +1,11 @@
+[project]
+name = "clean-myself"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.161.1",
+    "pwdlib[argon2]>=0.3.1",
+    "pyjwt>=2.15.1",
+    "pytest>=9.1.1",
+    "sqlmodel>=0.0.48",
+]

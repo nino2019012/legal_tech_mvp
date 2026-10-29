@@ -1,0 +1,20 @@
+# Python / Pytest
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Environment & Secrets (비밀키, 환경변수)
+.env
+.env.*
+
+# Database (SQLite 등 로컬 DB 파일)
+*.db
+*.sqlite3
+
+# IDE / Editor
+.vscode/
+.idea/
+
